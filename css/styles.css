@@ -1,0 +1,192 @@
+	/* COLORS */
+:root{
+	--light-red: hsl(356, 100%, 66%);
+	--very-light-red: hsl(355, 100%, 74%);
+	--very-dark-blue: hsl(208, 49%, 24%);
+	
+	--white: hsl(0, 0%, 100%);
+	--grayish-blue: hsl(240, 2%, 79%);
+	--very-dark-grayish-blue: hsl(207, 13%, 34%);
+	--very-dark-black-blue: hsl(240, 10%, 16%);
+	
+	--very-light-red-gradient: hsl(13, 100%, 72%);
+	--light-red-gradient: hsl(353, 100%, 62%);
+	--very-dark-gray-blue: hsl(237, 17%, 21%);
+	--very-dark-desaturated-blue: hsl(237, 23%, 32%);
+	
+}
+
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+body{
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Overpass', sans-serif;
+}
+h1, h2, h3{
+	color: var(--very-dark-blue);
+}
+header h1, header h3{
+	color: var(--white);
+}
+p{
+	color: var(--very-dark-grayish-blue);
+	line-height: 2em;
+	padding-right: 170px;
+}
+footer, .attribution{
+	background-color: var(--very-dark-black-blue);
+}
+footer{
+	color: var(--grayish-blue);
+}
+header{
+	background: url("../assets/images/bg-pattern-intro.svg") 30% 51%/140%,linear-gradient(to right, var(--very-light-red-gradient) , var(--light-red-gradient));
+}
+#interlude{
+	background: url("../assets/images/bg-pattern-circles.svg") -25.5% 80%/55% no-repeat,linear-gradient(to right, var(--very-dark-gray-blue) , var(--very-dark-desaturated-blue));
+}
+#interlude h1, #interlude p{
+	color: var(--white);
+}
+.menu,footer{
+	font-family: 'Ubuntu';
+}
+
+
+.container{
+  display: grid;
+	grid-template-rows: 400px 800px 330px 800px 300px;
+}
+
+header, footer, #main-1, #main-2, #interlude{
+	padding-left: 120px;
+	padding-right: 120px;
+}
+h1, h3{
+	text-align: center;
+}
+
+
+/* Header CSS */
+header{
+	padding-top: 40px;
+	border-bottom-left-radius: 90px;
+}
+
+.logo{
+	float: left;
+}
+
+header h1{
+	padding-top: 70px;
+	font-size: 40px;
+}
+header h3{
+	font-weight: 400;
+	font-size: 13px;
+}
+
+#main-1{
+	padding-top: 30px;
+	padding-right: 0px;
+	
+}
+
+#main-1 p{
+	padding-right: 50%;
+}
+
+#main-1 h2{
+	padding-top: 60px;
+}
+
+#img-right{
+	position: absolute;
+	width: 40%;
+	
+	margin-right: 0;
+	margin-left: calc(52% + 2px);
+	margin-top: -15%;
+	
+	
+	object-position: 175px;	
+}
+
+
+/* Interlude CSS */
+
+#interlude{
+	border-bottom-left-radius: 90px;
+	border-top-right-radius: 90px;
+}
+
+#phone{
+  position: absolute;
+}
+
+#phone{
+	width:30%;
+	margin-top: -4%;
+}
+#interlude h1{
+	padding-top: 60px;
+}
+#interlude h1, #interlude p, #main-2 p, #main-2 h3{
+	text-align: left;
+	padding-left: 40%;
+}
+
+
+/* Main 2 CSS */
+
+#laptop{
+	left:0;
+	position: absolute;
+	width: 50%;
+	object-position: -220px;
+}
+
+#main-2{
+	padding-top: 100px;
+} 
+
+
+#main-2 h3{
+	padding-top: 120px;
+}
+
+
+/* Footer CSS */
+
+footer{
+	padding-top: 40px;
+	border-top-right-radius: 90px;
+}
+
+footer .logo{
+	padding-right: 100px;
+}
+
+footer ul{
+	list-style: none;
+	float: left;
+}
+
+#Product, #Company, #Connect{
+	margin-top: -10px;
+	padding-right: 175px;
+	padding-bottom: 30px;
+	font-weight:  bold;
+}
+
+footer li{
+	padding-bottom: 15px;
+}

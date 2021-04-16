@@ -1,0 +1,46 @@
+.button{
+	background-color: transparent;
+	border: 1px white solid;
+	border-radius: 40px;
+  
+  padding: 10px 25px;
+  cursor: pointer;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+}
+
+.login, .sign-up{
+	float: right;
+}
+.login{
+  border: 0;
+  color: var(--white);
+}
+
+.sign-up, .start{
+  background-color: white;
+  color: var(--light-red);
+}
+
+.sign-up:hover, .start:hover{
+  background-color: var(--very-light-red);
+  border-color: var(--very-light-red);
+  color: var(--white);
+}
+
+.learn-more, .start{
+  margin-top: 30px; 
+  position: relative;
+  left: 50%;
+  transform: translateX(-100%);
+  padding: 10px 15px;
+}
+
+.learn-more{
+  margin-left: 0px;
+  color: var(--white);
+}
+.learn-more:hover{
+  background-color: white;
+  color:var(--light-red);
+}
