@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot.jpg)
+![](screenshot-desktop.jpg)
 
 This is my version of Blogr. I had multiple troubles when i tried to realise this challenge. First, it took me several hours to get a good structur of website, I completely restart one time, because my first thought was really messy. Then I struglled a lot with images. I'm a bit confused when I need to position images for the moment. And my last strong difficulty is the adaptability. I did not the mobile version because I have a bad structure website to adapt for thicker screen. 
 
